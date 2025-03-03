@@ -31,21 +31,21 @@ const Computers = ( { isMobile }) => {
 };
 
 const ComputersCanvas = () => {
-  const [isMobile, setIsMobile] = useState (false);
+  const [isMobile, setIsMobile] = useState(false); // State to track if the device is mobile
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 500px)');
+    const mediaQuery = window.matchMedia('(max-width: 500px)'); // Create a media query to check if the screen width is 500px or less
 
-    setIsMobile(mediaQuery.matches);
+    setIsMobile(mediaQuery.matches); // Set the initial value of isMobile based on the media query result
 
     const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
+      setIsMobile(event.matches); // Update isMobile state when the media query result changes
     }
 
-    mediaQuery.addEventListener('change', handleMediaQueryChange);
+    mediaQuery.addEventListener('change', handleMediaQueryChange); // Add an event listener to handle changes in the media query result
 
     return () => {
-      mediaQuery.removeEventListener('change', handleMediaQueryChange);
+      mediaQuery.removeEventListener('change', handleMediaQueryChange); // Clean up the event listener when the component unmounts
     }
   }, []);
 
@@ -55,7 +55,7 @@ const ComputersCanvas = () => {
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
-      style={{ width: '100%', height: '100vh' }} // Ensure the Canvas has a size
+      style={{ width: '100%', height: '100vh' }} //
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
