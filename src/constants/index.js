@@ -198,67 +198,84 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Tribute Page",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An elegant tribute page dedicated to Dr. Carl Sagan, showcasing his life, achievements, and contributions to science and astronomy. The page features a clean design with key information and quotes from Dr. Sagan, providing an insightful overview of his legacy.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "HTML",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "CSS",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/aadi-09/Projects/tree/main/TributePage",
     },
     {
-      name: "Job IT",
+      name: "ToDo List",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A user-friendly to-do list application that enables users to efficiently manage tasks by adding and deleting them. It features a clean and minimalistic design, making task management straightforward.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "HTML",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "CSS",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "JavaScript",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/aadi-09/Projects/tree/main/ToDo-List",
     },
     {
-      name: "Trip Guide",
+      name: "Calculator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A simple yet functional calculator application that supports basic arithmetic operations. It features a clean and intuitive interface, making it easy to perform calculations.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "HTML",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "CSS",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "JavaScript",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/aadi-09/CodSoft/tree/main/calculator",
+    },
+    {
+      name: "Product Landing Page",
+      description:
+        "A simple product landing page with placeholder text and a basic layout. It serves as a template for showcasing products with sections for images, descriptions, and call-to-action buttons.",
+      tags: [
+        {
+          name: "HTML",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500",
+        },
+        {
+          name: "CSS",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500",
+        },
+        {
+          name: "JavaScript",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/aadi-09/CodSoft/tree/main/landing-page",
     },
   ];
   
